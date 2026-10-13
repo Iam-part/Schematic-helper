@@ -97,7 +97,7 @@ public class SchematicBotClient implements ClientModInitializer {
     }
 
     private void say(Minecraft mc, String msg) {
-        if (mc.player != null) mc.player.displayClientMessage(Component.literal("[SchematicBot] " + msg), false);
+        if (mc.player != null) mc.player.sendSystemMessage(Component.literal("[SchematicBot] " + msg));
     }
 
     private boolean hasSchematic() {
