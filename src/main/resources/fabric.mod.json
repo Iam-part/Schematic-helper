@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "schematicbot",
+  "version": "1.0.0",
+  "name": "Schematic Bot",
+  "description": "Litematica-linked bot that builds schematics in a human-like way.",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.schematicbot.SchematicBotClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "fabric-api": "*",
+    "litematica": "*",
+    "malilib": "*",
+    "minecraft": "~26.2",
+    "java": ">=25"
+  }
+}
